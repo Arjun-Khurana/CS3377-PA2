@@ -1,0 +1,72 @@
+Script started on Mon 25 Mar 2019 08:40:00 PM CDT
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m git init[K[K[K[K[K[K[K[Kgit init
+Initialized empty Git repository in /home/arjun/Documents/CS3377/Assignment02/.git/
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m git staus[K[K[Kt[Katus
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mPA02.typescript[m
+	[31mPA02_Arjun_Khurana.zip[m
+	[31mPA2_Github.typescript[m
+	[31mREADME.txt[m
+	[31mfilecnt[m
+	[31mfilecnt.c[m
+	[31mfiledisp[m
+	[31mfiledisp.c[m
+	[31mmakefile[m
+	[31mversion[m
+	[31mversion.c[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m [K[1;32m$[0m [K[1;32m$[0m git remote add origin https://github.com/Arjun-Khurana/CS3377-PA2.git
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m git push -u orign [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add .
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m git commit --[Km "first commit"
+[master (root-commit) 7e405fa] first commit
+ 11 files changed, 261 insertions(+)
+ create mode 100644 PA02.typescript
+ create mode 100644 PA02_Arjun_Khurana.zip
+ create mode 100644 PA2_Github.typescript
+ create mode 100644 README.txt
+ create mode 100755 filecnt
+ create mode 100644 filecnt.c
+ create mode 100755 filedisp
+ create mode 100644 filedisp.c
+ create mode 100644 makefile
+ create mode 100755 version
+ create mode 100644 version.c
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m git push -u origin master
+Username for 'https://github.com': ArjunKh  -Khurana
+Password for 'https://Arjun-Khurana@github.com': 
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
+Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 19.39 KiB | 0 bytes/s, done.
+Total 13 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), done.[K
+To https://github.com/Arjun-Khurana/CS3377-PA2.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m git stau[Ktus remote
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m touch PA[K[Kfilecnt [K.c[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit t[Kstatus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified: 

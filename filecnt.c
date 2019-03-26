@@ -4,6 +4,8 @@
 #include <sys/stat.h>
 #include <stdint.h>
 
+//this is a new comment!
+
 //global variables to hold the values to be outputted, accessed both from main() and count()
 uintmax_t filecount = 0;
 uintmax_t dircount = 0;
