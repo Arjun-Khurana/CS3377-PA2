@@ -1,0 +1,38 @@
+Script started on Mon 04 Mar 2019 11:05:28 PM CST
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m gcc -o[K[Kfilecnt.c -o filecnt
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m gcc filedisp.c -o filedisp
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m ls
+[0m[01;32mfilecnt[0m  filecnt.c  [01;32mfiledisp[0m  filedisp.c  PA02.typescript  README.txt
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m ./filecnt -[K~/Documents/CS3377 -[K[K
+The total number of directories in directory /home/arjun/Documents/CS3377 is: 12
+The total number of files in directory /home/arjun/Documents/CS3377 is: 120
+The total number of bytes occupied by all files in directory /home/arjun/Documents/CS3377 is: 55044938
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m ./filecnt ~/Documents/CS3377 | ./filedisp -d
+The total number of directories in directory /home/arjun/Documents/CS3377 is: 12
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m ./filecnt ~/Documents/CS3377 | ./filedisp -d[Kf
+The total number of files in directory /home/arjun/Documents/CS3377 is: 120
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m ./filecnt ~/Documents/CS3377 | ./filedisp -f[Kb
+The total number of bytes occupied by all files in directory /home/arjun/Documents/CS3377 is: 55044938
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m ./filecnt ~/Documents/CS3377 | ./filedisp -b[Kdfv[Kb
+The total number of directories in directory /home/arjun/Documents/CS3377 is: 12
+The total number of files in directory /home/arjun/Documents/CS3377 is: 120
+The total number of bytes occupied by all files in directory /home/arjun/Documents/CS3377 is: 55044938
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m ./filecnt ~/Documents/CS3377 | ./filedisp -dfbx
+The total number of directories in directory /home/arjun/Documents/CS3377 is: 12
+The total number of files in directory /home/arjun/Documents/CS3377 is: 120
+The total number of bytes occupied by all files in directory /home/arjun/Documents/CS3377 is: 55044938
+invalid option passed
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment02[0m
+[1;32m$[0m exit
+exit
+
+Script done on Mon 04 Mar 2019 11:06:31 PM CST
